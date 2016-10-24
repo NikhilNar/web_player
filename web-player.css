@@ -39,3 +39,7 @@ body{
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+
+.active{
+    background-color: #E8F2FF;
+}
