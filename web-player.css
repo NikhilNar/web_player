@@ -43,3 +43,26 @@ body{
 .active{
     background-color: #E8F2FF;
 }
+
+textarea{
+    resize:none;
+
+}
+
+.panel{
+    float: left;
+    border-left:none;
+}
+
+#outputPanel{
+    border-top: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+    border-right:none;
+    border-left:none;
+    margin-bottom: 0px;
+    padding-top: 2px;
+
+}
+.hidden{
+    display: none;
+}
