@@ -30,6 +30,39 @@
 
             </div>
         </div>
+    <script type="text/javascript">
+        $(".toggleButton").hover(function(){
+            //console.log($(this).css("background-color"));
 
+            if($(this).css("background-color")=='rgb(238, 238, 238)'){
+
+                $(this).css("background-color","#E5E5E5");
+            }
+            else if($(this).css("background-color")=='rgb(232, 242, 255)'){
+                $(this).css("background-color","#B7DFFD");
+            }
+
+            //console.log($(this).css("background-color"));
+
+        },function(){
+            if($(this).css("background-color")=='rgb(229, 229, 229)'){
+
+                $(this).css("background-color","#EEEEEE");
+            }
+            else if($(this).css("background-color")=='rgb(183, 223, 253)'){
+                $(this).css("background-color","#E8F2FF");
+            }
+
+        });
+        $(".toggleButton").click(function(){
+            if($(this).css("background-color")=='rgb(238, 238, 238)'||$(this).css("background-color")=='rgb(229, 229, 229)'){
+                $(this).css("background-color","#E8F2FF");
+            }
+            else
+            {
+                $(this).css("background-color","#EEEEEE");
+            }
+        });
+    </script>
     </body>
 </html>
