@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+#header{
+    background-color: #EEEEEE;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+
+}
+
+#buttonContainer{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#logo{
+    float: left;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.toggleButton{
+    float: left;
+    border: 1px grey solid;
+    padding:5px;
+}
+
+#html{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#output{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
